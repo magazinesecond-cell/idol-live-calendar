@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+
+<meta charset="UTF-8">
+<title>ライブ管理</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<h1>ライブ追加管理</h1>
+
+<div class="admin">
+
+<label>日付</label>
+<input type="date" id="date">
+
+<label>アイドル</label>
+<input type="text" id="idol">
+
+<label>場所</label>
+<input type="text" id="area">
+
+<label>会場</label>
+<input type="text" id="venue">
+
+<button onclick="addEvent()">追加</button>
+
+</div>
+
+<h2>登録ライブ</h2>
+
+<div id="list"></div>
+
+<script src="admin.js"></script>
+
+</body>
+</html>
